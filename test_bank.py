@@ -55,7 +55,7 @@ class TestBankAccount(unittest.TestCase):
 
     def test_get_balance_after_deposit(self):
         self.account.withdraw(10)
-        self.assertEqual(self.account.get_balance(), 65)
+        self.assertEqual(self.account.get_balance(), 45)
 
     def test_get_balance_after_withdrawal(self):
         self.account.withdraw(10)

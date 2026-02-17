@@ -1,3 +1,6 @@
+import unittest
+
+
 class InsufficientFunds(Exception):
     pass
 
@@ -25,3 +28,7 @@ class BankAccount:
 
     def get_balance(self):
         return self.balance
+
+
+if __name__ == "__main__":
+    unittest.main()
